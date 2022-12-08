@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="shortcut icon" href="./public/icons/home.png" type="image/x-icon">
+    <script src="./scripts/app.js" defer></script>
     <title>HW14</title>
     </head>
     <body>
+
+        <div id="modal">
+            <form action="" class="modal-form">
+
+                <fieldset id="close" class="close">
+
+                    <div class="x-wrapper">X</div>
+
+                </fieldset>
+
+                <fieldset class="modal-form__input-wrapper">
+                    <label class="modal-form__label" for="email">Email</label>
+                    <input class="modal-form__input" id="email" placeholder="E-mail" type="text">
+                </fieldset>
+
+                <fieldset class="modal-form__input-wrapper">
+                    <label class="modal-form__label" for="password">Password</label>
+                    <input class="modal-form__input" placeholder="Password" type="password">
+                </fieldset>
+
+                <div class="button-wrapper">
+                    <button class="button">Close </button>
+                </div>
+                
+            </form>
+        </div>
+
+        <div id="portal"></div>
+
         <div class="app">
             <header class="header">
 
@@ -23,11 +53,49 @@
                 </div>
 
                 <nav class="nav">
-
-                    <a href="./pages/login.html">Register / Login</a>
-
+                    <a href="#" id="nav-link">Register / Login</a>
                 </nav>
             </header>
+
+            <main class="main">
+
+                <div class="main__description">
+                   <h1 class="main__title">Water rules</h1>
+
+                   <p class="main__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eligendi odio expedita veritatis, iusto voluptates illo nemo accusantium quam, enim harum vitae earum repellat, at tempora. Commodi soluta iste in ullam deleniti ab illo consequatur minus eum, eius earum corrupti id odit nam nesciunt provident, nemo enim. Placeat, dicta quasi.
+                   </p>
+
+                </div>
+
+                <div class="main__description">
+                   <h1 class="main__title">Water rules</h1>
+
+                    <p class="main__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eligendi odio expedita veritatis, iusto voluptates illo nemo accusantium quam, enim harum vitae earum repellat, at tempora. Commodi soluta iste in ullam deleniti ab illo consequatur minus eum, eius earum corrupti id odit nam nesciunt provident, nemo enim. Placeat, dicta quasi.
+                    </p>
+
+                </div>
+
+                <div class="main__description">
+                    <h1 class="main__title">Water rules</h1>
+
+                    <p class="main__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eligendi odio expedita veritatis, iusto voluptates illo nemo accusantium quam, enim harum vitae earum repellat, at tempora. Commodi soluta iste in ullam deleniti ab illo consequatur minus eum, eius earum corrupti id odit nam nesciunt provident, nemo enim. Placeat, dicta quasi.
+                   </p>
+
+               </div>
+
+               <div class="main__description">
+                
+                <h1 class="main__title">Water rules</h1>
+
+                    <p class="main__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eligendi odio expedita veritatis, iusto voluptates illo nemo accusantium quam, enim harum vitae earum repellat, at tempora. Commodi soluta iste in ullam deleniti ab illo consequatur minus eum, eius earum corrupti id odit nam nesciunt provident, nemo enim. Placeat, dicta quasi.
+                    </p>
+
+                </div>
+            </main>
+
+            <footer class="footer">
+
+            </footer>
             
         </div>
     </body>
