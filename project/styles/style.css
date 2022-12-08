@@ -1,3 +1,5 @@
+@import "./variables.css";
+
 * {
     padding : 0;
     margin : 0;
@@ -11,5 +13,24 @@ a {
 
 li {
     list-style-type : none ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary-bg);
+    padding: var(--padding-size-s);
+   
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.main{
+    background: var( --additional-bg);
 }
     
